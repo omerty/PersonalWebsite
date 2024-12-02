@@ -34,10 +34,10 @@ export const Projects = () => {
   // New projects for the "Currently Working" and "Resume" tabs
   const ongoingProjects = [
     {
-      title: "CryptoCurrency Selling Platform",
+      title: "Collegium Tech",
       description: "Blockchain, JavaScript, React, Prism, Azure SQL, AWS, RDS, S3.",
       imgUrl: projImg4,
-      link: "https://github.com/omerty/BlockChain-Project" // Replace with actual link
+      link: "https://github.com/omerty/BlockChain-Project"
     },
   ];
 

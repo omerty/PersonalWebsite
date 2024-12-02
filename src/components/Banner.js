@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Omer`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Backend Developer", "Certified CyberSecurity Associate", "Software Engineer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Omer, a `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Backend Developer", "Certified CyberSecurity Associate", "Software Engineer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm Omer Mohiuddin, a backend developer and certified cybersecurity associate with a strong focus on building secure and scalable systems. My experience spans technologies like Python, Flask, Node.js, Express, and AWS, allowing me to tackle complex projects with both efficiency and depth. Im passionate about solving technical challenges and delivering solutions that enhance functionality and security. With a commitment to continuous learning, Im always exploring new ways to improve my skills and stay updated in the ever-evolving tech landscape.</p>
                   <button onClick={() => window.location.href = "https://www.linkedin.com/in/omer-mohiuddin"}>Let’s Connect<ArrowRightCircle size={25} /></button>
               </div>}
